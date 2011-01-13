@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @prospect.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @prospect.email %>
+</p>
+
+<p>
+  <b>Weddingdate:</b>
+  <%= @prospect.weddingDate %>
+</p>
+
+<p>
+  <b>Referral:</b>
+  <%= @prospect.referral %>
+</p>
+
+<p>
+  <b>Firstcontact:</b>
+  <%= @prospect.firstContact %>
+</p>
+
+<p>
+  <b>Booked:</b>
+  <%= @prospect.booked %>
+</p>
+
+<p>
+  <b>Responded:</b>
+  <%= @prospect.responded %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%= @prospect.notes %>
+</p>
+
+
+<%= link_to 'Edit', edit_prospect_path(@prospect) %> |
+<%= link_to 'Back', prospects_path %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  weddingDate: 2011-01-12
+  referral: MyString
+  firstContact: 2011-01-12
+  reserved: false
+  notes: MyString
+
+two:
+  name: MyString
+  email: MyString
+  weddingDate: 2011-01-12
+  referral: MyString
+  firstContact: 2011-01-12
+  reserved: false
+  notes: MyString
