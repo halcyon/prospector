@@ -1,6 +1,4 @@
 Eventmanager::Application.routes.draw do
-  resources :mails
-
   resources :prospects
 
   # The priority is based upon order of creation:
