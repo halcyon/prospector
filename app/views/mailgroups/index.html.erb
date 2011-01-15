@@ -1,0 +1,23 @@
+<h1>Listing mailgroups</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mailgroups.each do |mailgroup| %>
+  <tr>
+    <td><%= mailgroup.name %></td>
+    <td><%= link_to 'Show', mailgroup %></td>
+    <td><%= link_to 'Edit', edit_mailgroup_path(mailgroup) %></td>
+    <td><%= link_to 'Destroy', mailgroup, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mailgroup', new_mailgroup_path %>

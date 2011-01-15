@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  prospect_id: 1
+  mailgroup_id: 1
+
+two:
+  prospect_id: 1
+  mailgroup_id: 1

@@ -1,4 +1,8 @@
 Eventmanager::Application.routes.draw do
+  resources :memberships
+
+  resources :mailgroups
+
   resources :prospects
 
   # The priority is based upon order of creation:
