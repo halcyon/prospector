@@ -46,4 +46,8 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+  <div class="field">
+    <%= f.label :mailgroups %><br />
+    <%= f.select :mailgroups, @prospect.mailgroups.collect {|mailgroup| [mailgroup.name, mailgroup.id ] } %>
+  </div>
 <% end %>
